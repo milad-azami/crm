@@ -12,49 +12,49 @@ function Form({ form, setForm }) {
         name="name"
         label="Name"
         type="text"
-        vlaue={form.name}
+        value={form.name}
         onChange={changeHandler}
       />
       <FormInput
         name="lastName"
         label="Last Name"
         type="text"
-        vlaue={form.lastName}
+        value={form.lastName}
         onChange={changeHandler}
       />
       <FormInput
         name="email"
         label="Email"
         type="text"
-        vlaue={form.email}
+        value={form.email}
         onChange={changeHandler}
       />
       <FormInput
         name="phone"
         label="Phone"
         type="tel"
-        vlaue={form.phone}
+        value={form.phone}
         onChange={changeHandler}
       />
       <FormInput
         name="address"
         label="Address"
         type="text"
-        vlaue={form.address}
+        value={form.address}
         onChange={changeHandler}
       />
       <FormInput
         name="postalCode"
         label="Postal Code"
         type="text"
-        vlaue={form.postalCode}
+        value={form.postalCode}
         onChange={changeHandler}
       />
       <FormInput
         name="date"
         label="Date"
         type="date"
-        vlaue={form.date}
+        value={form.date}
         onChange={changeHandler}
       />
       <ItemList form={form} setForm={setForm} />
